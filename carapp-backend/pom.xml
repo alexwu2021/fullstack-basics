@@ -15,7 +15,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>carappbackend</name>
 	<packaging>war</packaging>
-	<description>a REST service with MySql</description>
+	<description>a SpringBoot flavor REST service with MySql</description>
 
 	<properties>
 		<java.version>11</java.version>

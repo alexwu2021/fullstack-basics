@@ -38,7 +38,6 @@ public class CarController {
 			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
 		}
 		return new ResponseEntity<>(cars, HttpStatus.OK);
-
 	}
 
 	@GetMapping("/cars/{id}")

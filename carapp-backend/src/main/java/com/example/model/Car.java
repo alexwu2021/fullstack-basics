@@ -17,8 +17,6 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 public class Car {
-
-//	create table cars (id MEDIUMINT NOT NULL AUTO_INCREMENT, make varchar(50) not  null, model varchar(50) not null, description varchar(200) null, is_new boolean default  False, primary key (id));
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;

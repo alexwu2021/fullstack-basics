@@ -1,4 +1,4 @@
-use test_db;
+# use test_db;
 #
 # create table cars
 # (
@@ -11,4 +11,8 @@ use test_db;
 #     primary key (id)
 # );
 
-select * from cars;
+
+
+# CREATE USER 'test_user_1'@'localhost' IDENTIFIED BY 'Test_user_1_p';
+# GRANT ALL PRIVILEGES ON test_db.* TO 'test_user_1'@'localhost';
+# FLUSH PRIVILEGES;
